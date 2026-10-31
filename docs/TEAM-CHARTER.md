@@ -1,0 +1,1 @@
+- Require branches up to date: Yes - reason: every PR is tested against the latest main before merging
