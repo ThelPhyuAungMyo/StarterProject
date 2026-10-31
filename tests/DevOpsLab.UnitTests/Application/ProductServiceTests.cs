@@ -28,7 +28,7 @@ public class ProductServiceTests
 
         var response = await sut.CreateAsync(request);
 
-        Assert.Equal("SKU-001", response.Sku);
+        Assert.Equal("SKU-999", response.Sku);
         Assert.Single(_products.Items);
         Assert.Equal(1, _unitOfWork.SaveCount);
     }
